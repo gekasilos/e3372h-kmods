@@ -1,5 +1,6 @@
 dist: trusty
 sudo: required
+cache: cargo
 
 before_install:
   - sudo dpkg --add-architecture i386
