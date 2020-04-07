@@ -12,7 +12,7 @@ script:
   
 deploy:
   provider: releases
-  api-key: 1e53cd86acdf667cd4875403534cb6757959e1c2
+  api-key: 36e0df637f34dce0dd770495a06084911465a267
   file: e3372h-kmods/build-dir/kernel-build/drivers/net/*
   skip_cleanup: true
   draft: true
