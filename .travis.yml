@@ -13,3 +13,5 @@ deploy:
   provider: releases
   api-key: 1e53cd86acdf667cd4875403534cb6757959e1c2
   file: e3372h-kmods/build-dir/kernel-build/drivers/net/*
+  skip_cleanup: true
+  draft: true
